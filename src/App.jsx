@@ -67,8 +67,8 @@ function update(event) {
         fontStyle:'italic',
         fontWeight:'bold'
         
-      }} key={y*100}> - {x.character}</label>
-      <img key={y*1000} src={x.image} alt="cannot display this at the moment"/>
+      }} key={y+100}> - {x.character}</label>
+      <img key={y+1000} src={x.image} alt="cannot display this at the moment"/>
       </div>)}
   </>
   )
